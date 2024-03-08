@@ -1,0 +1,59 @@
+/* reset all default setting */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    color: #8CB9BD;
+    font-family: "Playfair Display", serif;
+}
+
+.title{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    font-style: italic;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    align-items: center;
+}
+
+
+#featuredImg {
+    display: block;
+    box-shadow: 7px 7px 5px #ccc;
+    border: 10px solid #B67352;
+}
+#imgInfo {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color:  #ECB159;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+li {
+    padding: 0 15px;
+}
+
+li img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: transform .2s;
+}
+
+li img:hover {
+    filter: none;
+    transform:scale(1.2);
+}
+
