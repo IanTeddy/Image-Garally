@@ -1,6 +1,7 @@
-# 🖼 Photo Gallery
+# 🖼 Photo Gallery 
+[JavaScript Assignment 2]
 
-Using the provided HTML, CSS, and JavaScript as a starting point, build a simple image gallery that features a collection of thumbnail images that can be clicked on for a full-sized version.
+Build a simple image gallery that features a collection of thumbnail images that can be clicked on for a full-sized version.
 <br>
 
 
